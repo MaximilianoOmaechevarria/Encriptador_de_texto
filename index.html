@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagen/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">    
+    <title>ENCRIPTADOR</title>
+</head>
+<body>
+
+    <!--encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="/imagenes/logo.svg" alt="Logo alura-latam" class="logo">
+        </a>
+    </header>
+
+    <!--principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto Aqui"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">ENCRIPTAR</button>
+                <button type="submit" class="btn-desencriptar">DESENCRIPTAR</button>
+
+            </div>
+
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./imagenes/muñeco.svg" alt="Imagen muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningun mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">COPIAR</button>
+
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer>
+        <p class="copyright">&copy;copyright 2024-encriptador de texto-desarrolado por Maxi Oma</p>
+        <a href="#" rel="">
+            <img src="./imagenes/linkedin.svg" alt="logo linkedin" class="linked">
+        </a>
+        <a href="#" rel="">
+            <img src="./imagenes/github.svg" alt="logo github" class="github">
+        </a>
+
+
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+    
+</body>
+</html>
